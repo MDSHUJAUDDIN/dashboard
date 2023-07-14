@@ -1,4 +1,5 @@
 import React from 'react'
+import img1 from './images/ss logo horizontal.png'
 export default function Navbar() {
   return (
     <>
@@ -7,7 +8,7 @@ export default function Navbar() {
   <div className="container">
     
     <a className='navbar-brand' href="/">
-    <img src='%SRC_URL%/ss logo horizontal.png' alt="Snapseva" width="30" height="30"/>
+    <img src={img1} alt="Snapseva" width="30" height="30"/>
     </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
